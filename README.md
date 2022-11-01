@@ -1,5 +1,5 @@
 # quickLesson1
-a quick lesson for simple source control and coding
+a quick lesson for simple source control and coding. The first few steps will be dealing with using the cmd line and git. These are two essential tools for modern code development!
 
 1) if you've installed WSL open the ubuntu terminal. Follow this article to get to grips with installing and opening WSL 
 https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview
