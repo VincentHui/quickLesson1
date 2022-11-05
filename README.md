@@ -14,3 +14,7 @@ https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview
 
 3) clone this repo into the c drive now that we have navigated to the c drive folder using the cmd line within WSL. With cmds like the following
 <br/>` $ git clone git@github.com:VincentHui/quickLesson1.git`
+
+Proof ben can use git:
+
+Proof sam can use git:
