@@ -18,3 +18,4 @@ https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview
 Proof ben can use git:
 
 Proof sam can use git:
+Franz Ferdinand gets shot
