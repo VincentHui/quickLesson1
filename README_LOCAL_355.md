@@ -19,4 +19,3 @@ Proof ben can use git:
 
 Proof sam can use git:
 Franz Ferdinand gets shot
-Franz Ferdinand gets shot
