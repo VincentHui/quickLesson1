@@ -1,4 +1,5 @@
 const { question } = require("../vince/question.js");
+var poo = "poo"
 console.log("I AM THE BEST");
 console.log("VINCE IS GAY");
 console.log("PRESS SAVE LUL");
@@ -10,10 +11,10 @@ console.log(
 );
 
 question("what do you think of Vince? ", (input) => {
+    if (input.length == 0) 
+    console.log("put in something dummy")
+    if (input.includes(poo))
+    console.log("do not say the word poo!")
+    if (input.length > 0)
   console.log("you think Vince is " + input);
 });
-console.log("THis is my folder now - Sam");
-
-question("what do you think of the moon? ", (input) => {
-    console.log("you think the moon is " + input);
-  });
