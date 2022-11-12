@@ -9,7 +9,11 @@ console.log(
   "Sweet are the uses of adversity which, like the toad, ugly and venomous, wears yet a precious jewel in his head"
 );
 
-question("what do you think of ben? ", (input) => {
-  console.log("you think ben is " + input);
+question("what do you think of Vince? ", (input) => {
+  console.log("you think Vince is " + input);
 });
 console.log("THis is my folder now - Sam");
+
+question("what do you think of the moon? ", (input) => {
+    console.log("you think the moon is " + input);
+  });
