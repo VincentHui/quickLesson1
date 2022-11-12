@@ -28,3 +28,5 @@ So we can create a way to assign values, define variables, read strings and then
   log(don't say poo!)
 }`
 
+the following link here has some good references to the javascript string.include method
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes
