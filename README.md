@@ -20,3 +20,11 @@ Franz Ferdinand gets a sandwich
 Proof sam can use git:
 Franz Ferdinand gets shot
 Franz Ferdinand gets shot
+
+# First Homework
+So we can create a way to assign values, define variables, read strings and then react to strings with a conditional statement. Next we are going to make a way to detect certain words. Using string.includes see if you can detect if certain words are inputed by the user. Heres some pseduo code as hint to help you guys (pseudo code means its just rough code from my head not JS or anything useful!)
+
+`if(input.includes(poo)){
+  log(don't say poo!)
+}`
+
