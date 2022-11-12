@@ -32,4 +32,4 @@ the following link here has some good references to the javascript string.includ
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes
 
 ## Extra
-defne a function which when called prints the line "line1" and then "line2", then call this function.
+defne a function called `myFirstFunction` which when called prints the line "line1" and then "line2", then call this function.
