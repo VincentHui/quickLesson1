@@ -27,3 +27,7 @@ function functionThatTakesParameterAndReturns(A, B) {
 const arrowFunctionDefinition = () => {
   console.log("test");
 };
+
+function vinceLog(toPrint) {
+  console.log(toPrint);
+}
