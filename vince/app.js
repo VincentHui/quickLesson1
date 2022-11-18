@@ -23,3 +23,7 @@ function MyFunctionThatTakesParameter(parameter1) {
 function functionThatTakesParameterAndReturns(A, B) {
   return A + B;
 }
+
+const arrowFunctionDefinition = () => {
+  console.log("test");
+};
