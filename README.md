@@ -33,3 +33,21 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 ## Extra
 defne a function called `myFirstFunction` which when called prints the line "line1" and then "line2", then call this function.
+
+# Second Homework
+I've managed to get both of you guys up to date with functions reasonably well. So this homework will mix in some of the stuff we've done with variables, functions and if statements. The harder stuf will be marked as extra! Remember there is two ways of defining functions
+1) Using the keyword function 
+`function MyFunctionName(paramter1, parameter2){
+//function logic in here
+}
+`
+2) Using arrow functions
+` const MyfunctionName = (paramter1, paramter2)=>{
+  //function logic in here
+  }
+`
+or do it in one line which is called an inline function
+`const MyfunctionName = (paramter1, paramter2)=>//inline logic`
+Notice how it almost looks like a variable assignment!
+
+
