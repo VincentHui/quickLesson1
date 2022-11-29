@@ -36,7 +36,7 @@ defne a function called `myFirstFunction` which when called prints the line "lin
 
 # Second Homework
 I've managed to get both of you guys up to date with functions reasonably well. So this homework will mix in some of the stuff we've done with variables, functions and if statements. The harder stuf will be marked as extra! Remember there is two ways of defining functions
-1) Using the keyword function 
+1) Using the keyword javascript has for defining functions called `function` 
 
 `function MyFunctionName(paramter1, parameter2){
   //function logic in here
