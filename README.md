@@ -76,5 +76,5 @@ Now on to some homework:
 5) Define a function called any name you want. It will take in a string and check the strings length, if the string is over a certain length it will console.log "TOO LONG". Draw on your previous experience! Remember parameters can be any name and type because JS is not type safe! (extra is to return the boolean result of it being too long)
 6) Define a function of any name that will take in 9 parameters and add them together
 
-Next lesson I will be going over assignments, definitions, types, functions and function signatures in more detail!
+Next lesson I will go over the homework and all the different ways the homework can be answered and then definitions, types, functions and function signatures in more detail!
 
