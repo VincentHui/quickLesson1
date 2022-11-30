@@ -3,12 +3,12 @@ const { question } = require("../vince/question.js");
 console.log("I am Sam");
 console.log("Shutup Vince");
 
-question("what do you think of Captain Sam Hui? ", (input) => {
-  if(input != null)
-    console.log("Captain Sam Hui is " + input);
-  if(input == 0)
-    console.log("Answer the question please")}
-);
+// question("what do you think of Captain Sam Hui? ", (input) => {
+//   if(input != null)
+//     console.log("Captain Sam Hui is " + input);
+//   if(input == 0)
+//     console.log("Answer the question please")}
+// );
 // question("what do you think of Captain Sam Hui",(input) => 
 //{if(input => 0){
 //  console.log("Captain Sam Hui is " + input)}
@@ -22,3 +22,27 @@ question("what do you think of Captain Sam Hui? ", (input) => {
 //   if(input.length > 0)
 //     console.log("Sam Hui is " + input);
 // })
+
+function add(a, b){
+  return a+b;
+}
+
+function subtract(a,b){
+  return a-b;
+}
+
+function multiply(a, b)
+{
+  return a*b;
+}
+
+function divide(a, b){
+  return b/a;
+}
+console.log(add(3, 1));
+
+console.log(subtract(5, 4));
+
+console.log(multiply(5, 77));
+
+console.log(divide(90,3));
