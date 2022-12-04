@@ -32,7 +32,6 @@ const what = (a,b) => {
 //   if(input == 0)
 //     console.log("Answer the question please")}
 // );
-
 // question("what do you think of Captain Sam Hui",(input) => 
 //{if(input => 0){
 //  console.log("Captain Sam Hui is " + input)}

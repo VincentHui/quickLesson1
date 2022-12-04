@@ -1,15 +1,65 @@
+const { Console } = require("console");
 const { question } = require("../vince/question.js");
-console.log("I AM THE BEST");
-console.log("VINCE IS GAY");
-console.log("PRESS SAVE LUL");
-console.log(
-  "I am a woman's rights. I have plowed and reaped and husked and chopped and mowed, and can any man do more than that? I am as strong as any man that is now'A former slave and one of the most powerful orators of her time, Sojourner Truth fought for the equal rights of Black women throughout her life"
-);
-console.log(
-  "Sweet are the uses of adversity which, like the toad, ugly and venomous, wears yet a precious jewel in his head"
-);
+var poo = "poo"
 
-question("what do you think of ben? ", (input) => {
-  console.log("you think ben is " + input);
+function myfirstfunction(parameter1){console.log(parameter1)}
+function benlog(parameter1){console.log(parameter1)}
+function add(parameter1,parameter2)
+{
+  var result = parameter1 + parameter2
+  console.log(result)
+}
+
+function sum(parameter1,parameter2,parameter3)
+{
+  var result = parameter1 + parameter2 + parameter3
+  console.log(result)
+}
+
+function sumextra(parameter1,parameter2,parameter3)
+{
+  console.log("Welcome to the sumextra function.")
+  var result = parameter1 + parameter2 + parameter3
+  console.log(result)
+}
+
+function subtract(parameter1,parameter2)
+{
+var result = parameter1 - parameter2
+console.log(result)
+}
+
+function multiply(parameter1,parameter2)
+{
+var result = parameter1 * parameter2
+console.log(result)
+}
+
+function reeturn(parameter1,parameter2,parameter3)
+{
+  var result = parameter1 + parameter2 + parameter3
+  return result
+}
+
+
+myfirstfunction ("line1")
+benlog("vince is dumb")
+add(reeturn(1,1,1),2)
+subtract(1023844,72894)
+add(1000000,3000000)
+multiply(12,12)
+sum(23,32,42)
+sumextra(52,12,5)
+var specialresult = reeturn(23,41,2)
+console.log(specialresult)
+
+
+
+question("what do you think of Vince? ", (input) => {
+  if (input.length == 0) 
+  console.log("put in something dummy")
+  if (input.includes(poo))
+  console.log("do not say the word poo!")
+  if (input.length > 0)
+console.log("you think Vince is " + input);
 });
-console.log("THis is my folder now - Sam");
