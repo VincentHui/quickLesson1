@@ -78,3 +78,12 @@ Now on to some homework:
 
 Next lesson I will go over the homework and all the different ways the homework can be answered and then definitions, types, functions and function signatures in more detail!
 
+# Third Homework
+
+We've gone other functions, types, assignments and declarations the next piece of homework will test a little bit of what we've done so far
+
+1) Declare a variable with any name. After the declaration asign it a string value
+2) Declare and assign a variable with any name with a number type
+3) Declare a variable called AddFunction and assign it the value of a function which will take two parameters and return the added results of two parameters
+4) Declare a varible called AddResult. Then in the next line Assign it the value of Addfunction after calling it with any two parameters. Then in the next line assign it the new value of 5+4.
+ 
