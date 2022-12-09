@@ -41,6 +41,13 @@ function reeturn(parameter1,parameter2,parameter3)
   return result
 }
 
+function yolo(parameter1,parameter2)
+{  return parameter1 + parameter2}
+
+var AddFunction = yolo(2,3)
+
+var AddResult = AddFunction
+AddResult = 5+4
 
 myfirstfunction ("line1")
 benlog("vince is dumb")
@@ -52,6 +59,8 @@ sum(23,32,42)
 sumextra(52,12,5)
 var specialresult = reeturn(23,41,2)
 console.log(specialresult)
+console.log(AddFunction)
+console.log(AddResult)
 
 
 
