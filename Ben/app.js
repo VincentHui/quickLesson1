@@ -100,11 +100,13 @@ console.log(LongBoi(12))
 BIGADDITION(3,2,3,1,4,5,6,7,8)
 console.log("END OF HW 2.")
 
-question("what do you think of Vince? ", (input) => {
+question("what do you think of HW 2? ", (input) => {
+  if (input.includes("ez"))
+  console.log("Yeah so easy its such a snooze fest fr")
   if (input.length == 0) 
   console.log("put in something dummy")
   if (input.includes(poo))
   console.log("do not say the word poo!")
   if (input.length > 0)
-console.log("you think Vince is " + input);
+console.log("you think the HW is " + input);
 });
