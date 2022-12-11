@@ -98,8 +98,26 @@ console.log(LongBoi(1))
 console.log(LongBoi(12))
 BIGADDITION(3,2,3,1,4,5,6,7,8)
 console.log("END OF HW 2.")
+console.log("START OF HW 3.")
 
-question("what do you think of HW 2? ", (input) => {
+var AnyName = ("stringvalue")
+var AnyNumber = 5
+var AddFunction = (parameter1,parameter2) => {
+  return parameter1 + parameter2
+}
+
+var AddResult = AddFunction
+
+console.log(AddFunction(2,4))
+console.log(AddResult(3,5))
+
+var AddResult = AddFunction(5,4)
+console.log(AddResult)
+
+console.log("END OF HW 3")
+
+
+question("what do you think of HW 2 and 3? ", (input) => {
   if (input == ("ez"))
   console.log("Yeah so easy its such a snooze fest fr")
   if (input.length == 0) 
