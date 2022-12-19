@@ -96,3 +96,9 @@ We've gone other functions, types, assignments and declarations the next piece o
 # Fourth Homework
 
 ComplianceEnforcer.js has been added to the Sam folder for sam, combatRobot has been added to the Ben folder for ben. They each contain a set of assertions on a object literal, your goal is to make sure that the assertions pass and that the bugs are fixed! Pay attention to errors and failed assertions in the console and if you can, complete the bonus objectives!
+
+to run combatRobot run the following
+`node combatRobot`
+
+to run ComplianceEnforcer run the following
+`node ComplianceEnforcer`
