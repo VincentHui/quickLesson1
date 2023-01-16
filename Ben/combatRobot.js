@@ -1,4 +1,21 @@
-const combatRobot = {};
+const assert = require("assert");
+
+const combatRobot = {
+  weapon: "particleLance",
+  killCount: 9999,
+  Startup: function () {
+    return "started up!";
+  },
+  GetAmmo: function (input) {
+    if (input.includes("Radiation")) return "Depleted Uranium";
+    if (input.includes("Toxic")) return "Nerve Gas Shells";
+  },
+  getID: function () {
+    return 12943992;
+  },
+  size: { height: 40, width: 20 },
+};
+
 console.assert(
   typeof combatRobot.weapon === "string",
   "weapon is not a type of string"
@@ -34,16 +51,17 @@ console.assert(
 );
 
 //extra
-console.assert(
-  combatRobot.size === { height: 40, width: 20 },
-  "Correct Size type is not returnded"
-);
+assert.deepStrictEqual(combatRobot.size, { height: 40, width: 20 }, [
+  "Correct Size type is not returned",
+]);
 
-console.assert(
-  combatRobot.Move({ L: 1, R: 5 }) === { Left: 1, Right: 5 },
+assert.deepStrictEqual(
+  combatRobot.Move({ L: 1, R: 5 }),
+  { Left: 1, Right: 5 },
   "movement is not correctly accounted for"
 );
-console.assert(
-  combatRobot.Move({ L: 3, R: 2 }) === { Left: 3, Right: 2 },
+assert.deepStrictEqual(
+  combatRobot.Move({ L: 3, R: 2 }),
+  { Left: 3, Right: 2 },
   "movement is not correctly accounted for"
 );
