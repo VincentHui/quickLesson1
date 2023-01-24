@@ -106,13 +106,13 @@ const dissidentDB = [
 
 //check the console error and see if the search function needs to be defined or not!
 
-
-for (let i = 0; i < dissidentDB.length; i++) 
-{const ele = dissidentDB[i];
-function search(para1){para1 = ele}}
-
-//function search(para1, para2){para1 = dissidentDB, para2}
-//  for (let i = 0; i < 3; i++) {};
+function search (DB, nameselect){
+for (let i = 0; i < DB.length; i++) 
+{const ele = DB[i].name;
+  if (nameselect.includes (DB[i].name))
+  {return true}
+}}
+{return false};
 
 
 console.assert(
