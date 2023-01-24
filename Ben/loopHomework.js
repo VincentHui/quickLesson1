@@ -36,21 +36,28 @@ for (let index = 0; index < testArray.length; index++) {
   console.assert(element !== "error", "element shouldn't have error!");
 }
 
-const newArray = [];
+//const newArray = [];
 //note how we can add to an array using a loop
 //note how as long as index is less than 5 it will keep looping so it will ass five elements
-for (let index = 0; index < 5; index++) {
-  newArray.push("new element" + index);
-}
-console.assert(newArray.length === 5, "array doesn't have 5 items in it");
+//for (let index = 0; index < 5; index++) {
+//  newArray.push("new element" + index);
+//}
+//console.assert(newArray.length === 5, "array doesn't have 5 items in it");
 
 //HOMEWORK
 
 //HINT you will read this from the error in the console, but define homeworkArray!
+
+
+var homeworkArray = []
+
 console.assert(
   homeworkArray.length === 0,
   "the array should have 0 elements in it and be defined!"
 );
+
+homeworkArray = ["first","second",3,2,1]
+
 
 console.assert(
   homeworkArray.length === 5,
@@ -66,10 +73,17 @@ console.assert(
   "second element should be a string with value second"
 );
 
+var newArray = [0,1]
+
 console.assert(
   newArray.length === 2,
   "var new array whould be defined and daclared with two elements"
 );
+
+newArray = []
+for (let index = 0; index < 400; index++) 
+  newArray.push(1 + index);
+
 console.assert(
   newArray.length === 400,
   "newArray should be an array with 400 elements in it, use a loop!"
@@ -91,10 +105,21 @@ const dissidentDB = [
 ];
 
 //check the console error and see if the search function needs to be defined or not!
+
+
+for (let i = 0; i < dissidentDB.length; i++) 
+{const ele = dissidentDB[i];
+function search(para1){para1 = ele}}
+
+//function search(para1, para2){para1 = dissidentDB, para2}
+//  for (let i = 0; i < 3; i++) {};
+
+
 console.assert(
   search(dissidentDB, "ben") === true,
   "search function should return true if dissident with a given name exists!"
 );
+
 console.assert(
   search(dissidentDB, "made up") === false,
   "search function should return false if name doesn't exist"
