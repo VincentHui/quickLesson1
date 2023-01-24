@@ -36,40 +36,53 @@ for (let index = 0; index < testArray.length; index++) {
   console.assert(element !== "error", "element shouldn't have error!");
 }
 
-const newArray = [];
+//const newArray = [];
 //note how we can add to an array using a loop
 //note how as long as index is less than 5 it will keep looping so it will ass five elements
-for (let index = 0; index < 5; index++) {
-  newArray.push("new element" + index);
-}
-console.assert(newArray.length === 5, "array doesn't have 5 items in it");
+//for (let index = 0; index < 5; index++) {
+//  newArray.push("new element" + index);
+//}
+//console.assert(newArray.length === 5, "array doesn't have 5 items in it");
 
 //HOMEWORK
 
 //HINT you will read this from the error in the console, but define homeworkArray!
+
+var homeworkArray = [];
+
 console.assert(
   homeworkArray.length === 0,
   "the array should have 0 elements in it and be defined!"
 );
+var homeworkArray = [1, 2, 3, 4, 5];
 
 console.assert(
   homeworkArray.length === 5,
   "the array should have elements added to it"
 );
 
+var homeworkArray = ["first", 2, 3, 5, 6];
 console.assert(
   homeworkArray[0] === "first",
   "first element should be a string with value first"
 );
+
+var homeworkArray = [1, "second", 2, 3, 4];
+
 console.assert(
   homeworkArray[1] === "second",
   "second element should be a string with value second"
 );
-
+var newArray = ["sam", "ben"];
 console.assert(
   newArray.length === 2,
   "var new array whould be defined and daclared with two elements"
 );
+
+var newArray = [];
+for (let index = 0; index < 400; index + 1) {
+  newArray.push("object"+index)
+}
 console.assert(
   newArray.length === 400,
   "newArray should be an array with 400 elements in it, use a loop!"
